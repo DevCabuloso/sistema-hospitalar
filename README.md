@@ -8,7 +8,7 @@
       nome VARCHAR(255) NOT NULL,
       data_nascimento DATE NULL,
       cpf VARCHAR(14) UNIQUE NULL,
-      rg VARCHAR(12) BINARY NULL,
+      rg VARCHAR(12) NULL,
       PRIMARY KEY(id)
     );
     
