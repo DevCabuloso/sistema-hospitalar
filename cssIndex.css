@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+}
+
+header {
+    background-color: #0B3D0B;
+    height: 100px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.box {
+    background-color: #0B3D0B;
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    color: white;
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+}
+
+h1 {
+    font-size: 24px; /* Aumenta o tamanho do título */
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px; /* Aumenta o tamanho da fonte */
+}
+
+.button {
+    background-color: white;
+    color: #0B3D0B;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: 12px; /* Aumenta o padding para botões maiores */
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Transição para transformação */
+}
+
+.button:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-2px); /* Levanta o botão ao passar o mouse */
+}
